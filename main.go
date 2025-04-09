@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello, %g  World!",math.Sqrt(10))
+	fmt.Printf("Hello, %g  World!",math.Sqrt(10))
 }
