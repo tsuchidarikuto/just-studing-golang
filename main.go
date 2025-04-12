@@ -2,10 +2,15 @@ package main
 
 import "fmt"
 
-func add(x,y int) int{
-	return x+y
+func swap (a,b int) (int,int){
+	return b,a
 }
 
 func main (){
-	fmt.Println(add(3,3))
+	a:=5
+	b:=9
+
+	a,b=swap(a,b)
+	fmt.Println(a)
+	fmt.Println(b)
 }
