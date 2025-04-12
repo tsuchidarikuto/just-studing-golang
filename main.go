@@ -1,16 +1,13 @@
 package main
-
 import "fmt"
 
-func swap (a,b int) (int,int){
-	return b,a
+func split(a int)(x,y int){
+	x = a/10
+	y = a%10
+
+	return
 }
 
-func main (){
-	a:=5
-	b:=9
-
-	a,b=swap(a,b)
-	fmt.Println(a)
-	fmt.Println(b)
+func main(){
+	fmt.Println(split(13))
 }
