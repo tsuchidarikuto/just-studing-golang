@@ -1,13 +1,12 @@
 package main
+
 import "fmt"
 
-func split(a int)(x,y int){
-	x = a/10
-	y = a%10
+var c, python ,java bool
 
-	return
-}
+func main (){
+	var a int
 
-func main(){
-	fmt.Println(split(13))
+	fmt.Println( a, c, java, python )
+
 }
